@@ -2,24 +2,25 @@
 <html lang='en'>
   <head>
     <title>CSS POSITIONING</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-   <div id="topLeft">
-     <h3>Absolute</h3>
-     <div class="box absoluteJr"></div>
+   <div id="topLeft" class="parent">
+     <h3>Absolute Parent</h3>
+     <div class="box absoluteJr">Absolute</div>
    </div>
-   <div id="topRight">
-     <h3>Fixed</h3>
-       <div class="box fixedjr"></div>
+   <div id="topRight"class="parent">
+     <h3>Fixed Parent</h3>
+       <div class="box fixedJr">Fixed</div>
    </div>
-   <div id="bottomLeft">
-     <h3>Relative</h3>
-     <div class="box relativeJr"></div>
+   <div id="bottomLeft" class="parent">
+     <h3>Relative Parent</h3>
+     <div class="box relativeJr">Relative</div>
    </div>
-   <div id="bottomRight">
-     <h3>Static</h3>
-     <div class="box staticJr">Junior</div>
+   <div id="bottomRight" class="parent">
+     <h3>Static Parent</h3>
+     <div class="box staticJr">Static</div>
    </div>
   </body>
 </html>
