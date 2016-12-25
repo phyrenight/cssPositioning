@@ -2,10 +2,18 @@
 <html lang='en'>
   <head>
     <title>CSS POSITIONING</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <form name="form1">
+      Right: <input type="text" id="right">
+      Bottom: <input type="text" id="bottom">
+      Left: <input type="text" id="left">
+      Top:<input type="text" id="top">
+      <input type="button"  onclick="adjustJr()" value="update">
+    </form>
    <div id="topLeft" class="parent">
      <h3>Absolute Parent</h3>
      <div class="box absoluteJr">Absolute</div>
@@ -22,5 +30,6 @@
      <h3>Static Parent</h3>
      <div class="box staticJr">Static</div>
    </div>
+   <script type="text/javascript" src="js/adjustposition.js"></script>
   </body>
 </html>
